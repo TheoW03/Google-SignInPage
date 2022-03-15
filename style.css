@@ -17,18 +17,19 @@
     font-family: sans-serif;
 }
 #inpputUser{
-    background-color: darkgray;
     border-radius: 6px;
+    background-color: whitesmoke;
     border-style: none;
-    height: 30px;
+    height: 40px;
     width: 300px;
+    border-style: none;
+    font-size: 15px; 
 
 }
-#inpputUser:focus{
+#inpputUser:focus { 
     outline-style: none;
-    border-bottom: solid 3px rgb(0,128,255);  
-
-  
+    border-bottom: solid 3px rgb(0,128,255); 
+   /* font-size: 20px;  */
 }
 
 #sign{
@@ -37,12 +38,22 @@
     margin-left: 12%;
     margin-bottom: 4%;
     font-size: 12px;
-    
+    font-family: sans-serif;
+    color:rgb(0,128,255);
+}
+
+fieldset
+{
+  border-radius: 4px;
+  border-color: whitesmoke;
+  max-width:0px;
+  padding:0px;	
+  margin:auto;
+  float: center;
 
 }
-fieldset{
-    min-width:auto;
-}
+
+
 p{
     font-family: sans-serif;
 }
