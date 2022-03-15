@@ -1,3 +1,6 @@
+@keyframes ani {
+    
+}
 .signIn{
     background-color: whitesmoke;
     width: 400px; 
@@ -22,12 +25,23 @@
 
 }
 #inpputUser:focus{
-    
-    outline-color: aqua;
+    outline-style: none;
+    border-bottom: solid 3px rgb(0,128,255);  
+
+  
 }
-#SILab{
+
+#sign{
     text-align: left;
-    font-size: 10px;
+    right: 400px;
+    margin-left: 12%;
+    margin-bottom: 4%;
+    font-size: 12px;
+    
+
+}
+fieldset{
+    min-width:auto;
 }
 p{
     font-family: sans-serif;

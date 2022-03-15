@@ -5,9 +5,9 @@ function click2() {
     document.addEventListener('click', function (event) {
         var isClickInsideElement = ignoreClickOnMeElement.contains(event.target);
         if (!isClickInsideElement) {
-            element.innerHTML = '<p> &nbsp; </p>';
+            element.innerHTML = '<le> &nbsp; </legend>';
         } else {
-            element.innerHTML = '<p> works </p>';
+            element.innerHTML = '<legend>email or phone </legend>';
         }
     });
 
