@@ -13,3 +13,22 @@
     font-size: 20px;
     font-family: sans-serif;
 }
+#inpputUser{
+    background-color: darkgray;
+    border-radius: 6px;
+    border-style: none;
+    height: 30px;
+    width: 300px;
+
+}
+#inpputUser:focus{
+    
+    outline-color: aqua;
+}
+#SILab{
+    text-align: left;
+    font-size: 10px;
+}
+p{
+    font-family: sans-serif;
+}
