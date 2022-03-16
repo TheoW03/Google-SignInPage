@@ -1,5 +1,19 @@
 @keyframes ani {
-    
+   from{
+       width: 0px;
+   } 
+   to{
+      background-color: blue;
+      width: 100px;
+
+   }
+}
+.signIn.anim{
+    width: 0px;
+}
+.signIn.anim#inpputUser:active{
+    animation: ani 3s;
+    background-color: blue;
 }
 .signIn{
     background-color: whitesmoke;
@@ -24,12 +38,14 @@
     width: 300px;
     border-style: none;
     font-size: 15px; 
+    border-bottom: 0; 
 
 }
 #inpputUser:focus { 
     outline-style: none;
-    border-bottom: solid 3px rgb(0,128,255); 
-   /* font-size: 20px;  */
+    /* animation: ani 3s; */
+   /* border-bottom: solid 3px rgb(0,128,255); */
+  /* font-size: 20px;  */
 }
 
 #sign{
@@ -59,7 +75,7 @@ fieldset
     border-style: none;
     color:white;
     position: relative; 
-    left: 29%;
+    left: 16%;
     height: 40px;
     width: 60px;
 }
@@ -72,12 +88,14 @@ fieldset
 #forgot{
     float: left;
     font-family: sans-serif;
+    text-align: left;
     font-size: 13px;
     font-weight: bold;
     position: relative;
     left: 11%;
     color:rgb(0,128,255);
     border-style: none;
+    width: 110px;
     
     
 }
@@ -91,7 +109,47 @@ fieldset
     left:11%;
     font-size: 12px;
 }
-
+#newline{
+    position: relative;
+    float:left;
+    font-size: 10px;
+}
+span{
+    position: relative;
+    float: left;
+}
+#newone{
+    position:relative;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    color:rgb(0,128,255);
+    border-style: none; 
+}
+#newone:active{
+    background-color: lightblue;
+    border-radius: 6px;
+}
+#e{
+    font-size: 5px;
+}
 p{
     font-family: sans-serif;
+}
+#creatre{
+    border-style: none;
+    color:rgb(0,128,255);
+    font-weight: bold;
+    border-radius: 4px;
+    border-style: none;
+    position: relative; 
+    right: 20%;
+    
+
+}
+
+#creatre:active{
+    background-color: lightblue;
+
 }
